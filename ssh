@@ -1,0 +1,2 @@
+Working sshfs mount in /etc/fstab
+user@server_ip:/mnt/remote_directory /mnt/local_directory  fuse.sshfs noauto,x-systemd.automount,_netdev,user,idmap=user,follow_symlinks,identityfile=/home/USER_HERE/.ssh/id_rsa,allow_other,default_permissions,uid=USER_NUM,gid=GROUP_NUM 0 0

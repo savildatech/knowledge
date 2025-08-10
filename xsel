@@ -1,0 +1,5 @@
+#desktop clipboard
+cat file.txt | xsel -ib
+
+#terminal clipboard
+cat file.txt | xsel
